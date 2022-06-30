@@ -7,7 +7,7 @@ The repository contains the projects I created during the course [React Tutorial
 ### Birthday Reminder
 A simple website that displays who is having a birthday today.
 
-![clipboard.png](eGpp044og-clipboard.png)
+![clipboard.png](imgs/eGpp044og-clipboard.png)
 
 The page gets data from the data.js file. The data is saved as an object in the list.
 
