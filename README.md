@@ -3,8 +3,7 @@
 The repository contains the projects I created during the course [React Tutorial and Projects Course (2022)](https://www.udemy.com/course/react-tutorial-and-projects-course/learn/lecture/22580994#content).
 
 ## Description of the projects
-
-### Birthday Reminder
+- ### Birthday Reminder
 A simple website that displays who is having a birthday today.
 
 A [live version](https://petitoff-birthday-reminder.netlify.app/) of the page is available.
@@ -23,7 +22,8 @@ export default [
   },
 ];
 ```
-## Tours
+
+- ### Tours
 Website with vacation spots for tourists. 
 
 A [live version](https://petitoff-tours.netlify.app/) of the page is available.
