@@ -27,7 +27,7 @@ A [live version](https://petitoff-birthday-reminder.netlify.app/) of the page is
 ## Tours
 Website with vacation spots for tourists. 
 
-A [live version](https://petitoff-birthday-reminder.netlify.app/) of the page is available.
+A [live version](https://petitoff-tours.netlify.app/) of the page is available.
 
 ![clipboard.png](imgs/l9jZrof3g-clipboard.png)
 
