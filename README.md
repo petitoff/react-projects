@@ -23,3 +23,35 @@ export default [
 ```
 
 A [live version](https://petitoff-birthday-reminder.netlify.app/) of the page is available.
+
+## Tours
+Website with vacation spots for tourists. 
+
+A [live version](https://petitoff-birthday-reminder.netlify.app/) of the page is available.
+
+![clipboard.png](imgs/l9jZrof3g-clipboard.png)
+
+We are using api from `course-api.com`.
+``` js
+const url = "https://course-api.com/react-tours-project";
+```
+
+Fetching data from api as json format.
+``` js
+const fetchTours = async () => {
+  setLoading(true);
+
+  try {
+    const response = await fetch(url);
+    const tours = await response.json();
+    setLoading(false);
+    setTours(tours);
+  } catch (error) {
+    setLoading(false);
+    console.log(error);
+  }
+};
+```
+
+Fetching the data takes place after the page has been loaded. Data is send via props to tour.jsx component.
+
