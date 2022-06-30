@@ -7,6 +7,8 @@ The repository contains the projects I created during the course [React Tutorial
 ### Birthday Reminder
 A simple website that displays who is having a birthday today.
 
+A [live version](https://petitoff-birthday-reminder.netlify.app/) of the page is available.
+
 ![clipboard.png](imgs/eGpp044og-clipboard.png)
 
 The page gets data from the data.js file. The data is saved as an object in the list.
@@ -21,9 +23,6 @@ export default [
   },
 ];
 ```
-
-A [live version](https://petitoff-birthday-reminder.netlify.app/) of the page is available.
-
 ## Tours
 Website with vacation spots for tourists. 
 
