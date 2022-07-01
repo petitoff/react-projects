@@ -68,3 +68,14 @@ We are getting data from `data.js`
 ``` js
 import people from "./data";
 ```
+
+Restructuring from object and useState for changing the index of array in `Review.jsx`
+``` js
+const [index, setIndex] = useState(0);
+const { name, job, image, text } = people[index];
+```
+
+Generate random index of the array `people`
+``` js
+let randomNumber = Math.floor(Math.random() * people.length);
+```
