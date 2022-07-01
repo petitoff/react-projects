@@ -18,6 +18,18 @@ const Review = () => {
     return number;
   };
 
+  const prevPerson = () => {
+    setIndex((index) => {
+      return checkNumber(index - 1);
+    });
+  };
+
+  const nextPerson = () => {
+    setIndex((index) => {
+      return checkNumber(index + 1);
+    });
+  };
+
   return (
     <article className="review">
       <div className="img-container">
