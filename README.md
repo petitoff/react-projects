@@ -10,7 +10,7 @@ A simple website that displays who is having a birthday today.
 
 A [live version](https://petitoff-birthday-reminder.netlify.app/) of the page is available.
 
-![clipboard.png](eGpp044og-clipboard.png)
+![clipboard.png](imgs/eGpp044og-clipboard.png)
 
 The page gets data from the data.js file. The data is saved as an object in the list.
 
@@ -30,7 +30,7 @@ Website with vacation spots for tourists.
 
 A [live version](https://petitoff-tours.netlify.app/) of the page is available.
 
-![clipboard.png](l9jZrof3g-clipboard.png)
+![clipboard.png](imgs/l9jZrof3g-clipboard.png)
 
 We are using api from `course-api.com`.
 ``` js
