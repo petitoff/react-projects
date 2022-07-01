@@ -63,7 +63,9 @@ const Review = () => {
         </button>
       </div>
 
-      <button className="random-btn">surprise me</button>
+      <button className="random-btn" onClick={randomPerson}>
+        surprise me
+      </button>
     </article>
   );
 };
