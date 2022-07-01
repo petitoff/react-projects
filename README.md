@@ -79,3 +79,18 @@ Generate random index of the array `people`
 ``` js
 let randomNumber = Math.floor(Math.random() * people.length);
 ```
+
+Checking if we are not going out of the array
+``` js
+const checkNumber = (number) => {
+  if (number > people.length - 1) {
+    return 0;
+  }
+
+  if (number < 0) {
+    return people.length - 1;
+  }
+
+  return number;
+};
+```
