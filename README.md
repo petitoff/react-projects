@@ -3,12 +3,14 @@
 The repository contains the projects I created during the course [React Tutorial and Projects Course (2022)](https://www.udemy.com/course/react-tutorial-and-projects-course/learn/lecture/22580994#content).
 
 ## Description of the projects
+
 - ### Birthday Reminder
+
 A simple website that displays who is having a birthday today.
 
 A [live version](https://petitoff-birthday-reminder.netlify.app/) of the page is available.
 
-![clipboard.png](imgs/eGpp044og-clipboard.png)
+![clipboard.png](eGpp044og-clipboard.png)
 
 The page gets data from the data.js file. The data is saved as an object in the list.
 
@@ -22,13 +24,13 @@ export default [
   },
 ];
 ```
-
 - ### Tours
+
 Website with vacation spots for tourists. 
 
 A [live version](https://petitoff-tours.netlify.app/) of the page is available.
 
-![clipboard.png](imgs/l9jZrof3g-clipboard.png)
+![clipboard.png](l9jZrof3g-clipboard.png)
 
 We are using api from `course-api.com`.
 ``` js
@@ -54,3 +56,15 @@ const fetchTours = async () => {
 
 Fetching the data takes place after the page has been loaded. Data is send via props to tour.jsx component.
 
+- ### Reviews
+
+Customer feedback slideshow.
+
+A [live version](https://petitoff-reviews.netlify.app/) of the page is available
+
+![clipboard.png](imgs/JmVS4rjBW-clipboard.png)
+
+We are getting data from `data.js`
+``` js
+import people from "./data";
+```
